@@ -5,3 +5,8 @@ color: green;
 .Bulletpoint {
 color: pink;
 }
+.h1{
+  color: darkred;
+  font:timesnewroman;
+  size: 12pt;
+}
