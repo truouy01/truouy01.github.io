@@ -10,6 +10,9 @@ color: hotpink;
   font-family:"verdana", sans-serif ;
   size: 12pt;
 }
-.color{
+.colorhead{
   background-color:skyblue;
+}
+.colorbody{
+  background-color:green;
 }
