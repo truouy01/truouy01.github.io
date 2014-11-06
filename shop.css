@@ -3,7 +3,7 @@
 color: green;
 }
 .Bulletpoint {
-color: hotpink;
+color: rgb(100,50,50);
 }
 .h1{
   color: darkred;
@@ -13,6 +13,9 @@ color: hotpink;
 .colorhead{
   background-color:skyblue;
 }
-.colorbody{
+.colorbody1{
   background-color:lightyellow;
+}
+.colorbody2{
+  background-color:lightpink;
 }
