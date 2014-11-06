@@ -3,12 +3,17 @@
 color: green;
 }
 .Bulletpoint {
-color: rgb(100,50,50);
+color: rgb(100,50,200);
+font-style: italic;
+font-family:"times new roman", serif;
+}
+.Subheading {
+  color:#ff01aa;
+  font-size: 25px;
 }
 .h1{
   color: darkred;
   font-family:verdana, sans-serif ;
-  font-style:italic;
   size: 12pt;
 }
 .colorhead{
