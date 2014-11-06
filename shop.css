@@ -7,7 +7,8 @@ color: rgb(100,50,50);
 }
 .h1{
   color: darkred;
-  font-family:"verdana", sans-serif ;
+  font-family:verdana, sans-serif ;
+  font-style:italic;
   size: 12pt;
 }
 .colorhead{
