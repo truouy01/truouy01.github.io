@@ -32,6 +32,6 @@ body{
   }
 .line {
   text-decoration: line-through;
-  list-style-type: check-mark;
+  list-style-type: check;
 }
   
