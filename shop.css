@@ -4,11 +4,15 @@ color: green;
 font-size: 30px;
 font-weight: bold;
 }
-.Bulletpoint {
+.Bulletpoint1 {
 color: rgb(100,50,200);
 font-style: italic;
 font-family:"times new roman", serif;
 }
+.Bulletpoint2 {
+color: rgb(100,50,0);
+font-style: italic;
+font-family:"times new roman", serif;
 .Subheading {
   color:#ff0100;
   font-size: 20px;
