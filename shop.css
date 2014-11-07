@@ -32,6 +32,6 @@ body{
   }
 .line {
   text-decoration: line-through;
-  list-style-type: check;
+  list-style-type: circle;
 }
   
