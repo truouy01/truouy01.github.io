@@ -31,6 +31,6 @@ body{
   background-image: url("http://31.media.tumblr.com/tumblr_ltjajqzPLO1qd45ayo1_1280.jpg");
   }
 .line{
-  style: 
+  text-decoration: line-through;
 }
   
