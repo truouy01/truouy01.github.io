@@ -3,6 +3,11 @@ section {
   padding:0;
 }
 
+#card {
+  width:500px;
+  height:500px;
+}
+
 #card:hover #card_transition {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
