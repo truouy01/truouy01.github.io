@@ -26,8 +26,8 @@ header {
              color: white;
          }
          aside {
-             float: left;
-             width: 80%;
+             float: right;
+             width: 50%;
              height: 500px;
              background-color: red;
          }
