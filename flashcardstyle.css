@@ -1,0 +1,8 @@
+#card:hover #card_transition {
+transform: rotateY(180deg);
+-webkit-transform: rotateY(180deg);
+}
+#card_transition {
+transform: all 1.0s linear;
+-webkit-transition: all 1.0s linear;
+}
