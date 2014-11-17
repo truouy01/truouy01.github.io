@@ -6,12 +6,12 @@ section {
            background-color: green;
            padding: 25px;
            border: 10px solid blue;
-           margin: 25px;
+           margin: 0px;
            
 }
 nav {
            position: relative;
-           margin: 20px;
+           margin: 0px;
            float: left;
 }
 nav:hover .question{
