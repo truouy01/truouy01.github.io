@@ -25,6 +25,9 @@ nav:hover .question{
 .answer {
     background-color:blue;
 }
+input:checked ~ .question {
+}
+}
 .question {
            background-color: green;
 }
