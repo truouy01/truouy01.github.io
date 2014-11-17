@@ -12,6 +12,5 @@ section {
 }
 .answer{
   display:hover;
-  visibility:hidden;
   background-color:blue;
 }
