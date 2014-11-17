@@ -20,13 +20,12 @@ nav {
 }
 nav:hover .question{
   display:none;
-  background-color:pink;
+ 
 }
 .answer {
     background-color:blue;
 }
 input:checked ~ .question {
-}
 }
 .question {
            background-color: green;
