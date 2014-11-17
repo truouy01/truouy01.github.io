@@ -1,7 +1,7 @@
 section {
            position: absolute;
-           top: 0;
-           left: 0;
+           top: 20px;
+           left: 20px;
            height: 100px;
            width: 100px;
            
@@ -26,6 +26,7 @@ nav:hover .question{
     background-color:blue;
 }
 input:checked ~ .question {
+           
 }
 .question {
            background-color: green;
