@@ -11,6 +11,10 @@ section {
   background-color:pink;
 }
 .answer{
-  display:hover;
+  display:hidden;
   background-color:blue;
+}
+
+.answer:hover {
+           display:block;
 }
