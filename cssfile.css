@@ -10,9 +10,9 @@ header {
              color: white;
          }
          nav {
-             margin-top: 20px;
+             margin-top: 50px;
              margin-bottom: 0px;
-             background-color: pink;
+             background-color: lightblue;
              color: white;
          }
          nav li {
@@ -22,14 +22,14 @@ header {
              float: left;
              width: 50%;
              height: 500px;
-             background-color: blue;
+             background-color: white;
              color: white;
          }
          aside {
              float: right;
              width: 50%;
              height: 500px;
-             background-color: red;
+             background-color: white;
          }
          footer {
              clear: both;
