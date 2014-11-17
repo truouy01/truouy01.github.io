@@ -16,7 +16,7 @@ nav {
            margin: 20px;
            float: left;
            height: 500px;
-           width: 125px;
+           width: 500px;
 }
 nav:hover .question{
   display:none;
