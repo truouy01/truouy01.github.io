@@ -11,10 +11,11 @@ section {
   background-color:pink;
 }
 .answer{
-  display:hidden;
+  display:none;
+  visibility:hidden;
   background-color:blue;
 }
 
 .answer:hover {
-           display:block;
+  display:block;
 }
