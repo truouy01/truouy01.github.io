@@ -13,7 +13,8 @@ header {
              margin-top: 50px;
              margin-bottom: 0px;
              background-color: lightblue;
-             color: white;
+             font-style:bold;
+             font-size:20px;
          }
          nav li {
             display: inline;
@@ -33,7 +34,7 @@ header {
          }
          footer {
              clear: both;
-             background-color: yellow;
+             background-color: green;
          }
          body {
              background-color: black;
