@@ -1,21 +1,16 @@
-#card {
-  width:500px;
-  height:500px;
+section{
+           width: 250px;
+           background-color: green;
+           padding: 25px;
+           border: 10px solid blue;
+           margin: 25px;
+           
 }
-
-#card:hover #card_transition {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
+.question{
+  display:show;
+  background-color:pink;
 }
-
-#card_transition {
-  transform: all 1.0s linear;
-  -webkit-transition: all 1.0s linear;
-}
-
-aside {
-  width: 300px;
-  padding: 25px;
-  border: 25px solid navy;
-  margin: 25px;
+.answer{
+  display:hover;
+  background-color:blue;
 }
