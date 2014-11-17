@@ -1,49 +1,67 @@
-<html>
-<head>
-<link rel="stylesheet" href="mystyle.css" type="text/css">
-<title>Hello</title>
-</head>
-<body>
-<style>
-  li{
-    color: rgb(250,30,30);
-    font:28px;
-  }
-</style>
-<h1>Happy Halloween</h1>
-<p> Halloween is coming. I need to buy some stuff to prepare!</p>
+ <html>
+     <head>
+         <title>Home</title>
+         <style>
+         header {
+             position: fixed;
+             background-color: #bbbbbb;
+             top: 0px;
+             left: 0px;
+             width: 100%;
+             height: 20px;
+         }
+         nav {
+             margin-top: 20px;
+             margin-bottom: 0px;
+             background-color: green;
+         }
+         nav li {
+            display: inline;
+         }
+         section {
+             float: left;
+             width: 20%;
+             height: 500px;
+             background-color: blue;
+             color: white;
+         }
+         aside {
+             float: left;
+             width: 80%;
+             height: 500px;
+             background-color: red;
+         }
+         footer {
+             clear: both;
+             background-color: yellow;
+         }
+         body {
+             background-color: black;
+             margin: 0px;
+         }
+         </style>
 
-<a href="shopping.html">Shopping List</a>
-</body>
-<h1>My friends</h1>
-<img height=250 width=350 src="https://scontent-b-ord.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10685482_10202717462606440_8609063207361099037_n.jpg?oh=0d11ccae41c93873866d4383ce22f7c1&oe=54F012E9">
-<p> These are my three close friends at Luther College. The second from the left is my roommate. 
-    She and I have been roommmates for almost three years since we came to Luther. We took this picture on the inauguration day of President Paula Carlson. 
-    It was a sunny day with the tree leaves just turning yellow. Such a perfect timing for taking our friends photo!</p>
-<table width='70%' border=3px cellspacing=1>
-    <tr>
-        <th>Name</th>
-        <th colspan=2>"Fun" facts</th>
-    </tr>
-    <tr>
-        <td rowspan=2>Maiteng Moua</td>
-        <td>Cell</td>
-        <td>555-1212</td>
-    </tr>
-    <tr>
-        <td>Year</td>
-        <td>Junior</td>
-    </tr>
-    <tr>
-        <td rowspan=2>Lindsey Skutbiz</td>
-        <td>Cell</td>
-        <td>123-5543</td>
-    </tr>
-    <tr>
-        <td>Year</td>
-        <td>Junior</td>
-    </tr>
-</table>
-
-
-</html>
+     </head>
+     <body>
+         <header>
+             A header that stays stuck to the top.
+         </header>
+         <nav>
+             <ul>
+             <li>About</li>
+             <li>Papers</li>
+             <li>Donate</li>
+             </ul>
+         </nav>
+         <section>
+             This would be a good place for a table of contents
+         </section>
+         <aside>
+             This is the main content area
+             <img src="http://interactivepython.org/runestone/static/webfundamentals/_images/img_sem_elements.gif" />
+         </aside>
+         <footer>
+             Copyright Area, Contact Us.
+         </footer>
+     </body>
+ </html>
