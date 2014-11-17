@@ -7,18 +7,20 @@ header {
              height: 50px;
              font-size:40px;
              font-family: arial, sans-serif;
+             color: white;
          }
          nav {
              margin-top: 20px;
              margin-bottom: 0px;
-             background-color: lightblue;
+             background-color: pink;
+             color: white;
          }
          nav li {
             display: inline;
          }
          section {
              float: left;
-             width: 20%;
+             width: 50%;
              height: 500px;
              background-color: blue;
              color: white;
