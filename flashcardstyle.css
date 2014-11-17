@@ -15,8 +15,8 @@ nav {
            position: relative;
            margin: 20px;
            float: left;
-           height: 500px;
-           width: 500px;
+           height: 10px;
+           width: 10px;
 }
 nav:hover .question{
   display:none;
