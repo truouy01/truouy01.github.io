@@ -2,7 +2,7 @@ article {
            position: absolute;
            top: 0px;
            left: 0x;
-           height: 200px;
+           height: 180px;
            width: 100px;
            
            padding: 2px;
@@ -31,7 +31,7 @@ input:checked ~ .question {
 input {
          position: absolute;
            top:200;
-           left: 62;  
+           left: 50;  
 }
 .question {
            background-color: green;
