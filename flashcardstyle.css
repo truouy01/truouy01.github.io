@@ -13,10 +13,10 @@ article {
 }
 div {
            position: relative;
-           margin: 5px;
+           margin: 20px;
            float: left;
-           height:80px;
-           width: 20px;
+           height:160px;
+           width: 80px;
 }
 div:hover .question{
   display:none;
