@@ -15,8 +15,8 @@ div {
            position: relative;
            margin: 25px;
            float: left;
-           height: 20px;
-           width: 10px;
+           height: 200px;
+           width: 100px;
 }
 div:hover .question{
   display:none;
