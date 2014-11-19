@@ -1,11 +1,11 @@
 section {
            position: absolute;
-           top: 20px;
-           left: 20px;
-           height: 100px;
-           width: 100px;
+           top: 0px;
+           left: 0x;
+           height: 20px;
+           width: 10px;
            
-           padding: 25px;
+           padding: 5px;
            border: 2px solid;
            border-radius: 10px;
            
@@ -13,9 +13,9 @@ section {
 }
 div {
            position: relative;
-           margin: 100px;
+           margin: 25px;
            float: left;
-           height: 10px;
+           height: 20px;
            width: 10px;
 }
 div:hover .question{
