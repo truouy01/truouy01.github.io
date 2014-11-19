@@ -21,14 +21,14 @@ header {
          }
          section {
              float: left;
-             width: 50%;
+             width: 20%;
              height: 500px;
              background-color: white;
              color: white;
          }
          aside {
              float: right;
-             width: 50%;
+             width: 80%;
              height: 500px;
              background-color: white;
          }
