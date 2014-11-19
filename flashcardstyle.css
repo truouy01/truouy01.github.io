@@ -5,9 +5,9 @@ article {
            height: 160px;
            width: 80px;
            
-           padding: 5px;
+           padding: 2px;
            border: 2px solid;
-           border-radius: 10px;
+           border-radius: 5px;
            
            
 }
@@ -15,8 +15,8 @@ div {
            position: relative;
            margin: 100px;
            float: left;
-           height: 100px;
-           width: 40px;
+           height:80px;
+           width: 20px;
 }
 div:hover .question{
   display:none;
@@ -28,7 +28,7 @@ div:hover .question{
 input:checked ~ .question {
            background-color: pink;
 }
-input:checked {
+input {
          position: absolute;
            top:200;
            left: 62;  
