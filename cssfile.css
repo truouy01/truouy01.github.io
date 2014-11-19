@@ -28,6 +28,7 @@ header {
              padding: 5px;
              margin: 10px;   }
          aside {
+             position: relative;
              float: right;
              width: 80%;
              height: 500px;
