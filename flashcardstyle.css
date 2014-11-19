@@ -26,6 +26,10 @@ div:hover .question{
     background-color:blue;
 }
 input:checked ~ .question {
+           position: absolute;
+           top:200;
+           left: 62;
+           background-color: pink;
            
 }
 .question {
