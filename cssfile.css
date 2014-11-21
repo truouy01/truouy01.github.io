@@ -29,10 +29,11 @@ header {
               }
          aside {
              float: right;
-             width: 70%;
+             width: 80%;
              height: 500px;
-             padding: 5px;
-             border:5px;
+             padding: 25px;
+             border:25px;
+             margin: 50;
          }
          footer {
              clear: both;
