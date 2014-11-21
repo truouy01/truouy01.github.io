@@ -59,5 +59,18 @@
 </div>
 
 
+<checkbox onclick="countclick();"> check me </checkbox>
+<p id="ivy">0</p>
+      <script type="text/javascript">
+          counter=0;
+         countclick = function() {
+             mycount=document.querySelector ('p#ivy');
+             counter= counter+1;
+             mycount.style.color= "red";
+             mycount.innerHTML= counter;
+         }
+      </script>
+
+
 </body>
 </html>
