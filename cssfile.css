@@ -39,6 +39,8 @@ header {
          footer {
              clear: both;
              background-color: green;
+             width: 100%;
+             position: absolute;
          }
          body {
              background-color: white;
