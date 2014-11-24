@@ -24,7 +24,7 @@
 
 
 <div>
-<input type="checkbox">
+<input type="checkbox" onClick="onClick()"</button>>
 
 <article class="answer">
      <p>Three: Brandt, Ylvisaker, and Olson</p>
@@ -35,7 +35,7 @@
 </div>
 
   <div>
-  <input type="checkbox">
+  <input type="checkbox" onClick="onClick()"</button>>
   
 <article class="answer">
     <p> Miller and Dieseth</p>
@@ -47,7 +47,7 @@
 </div>
 
   <div>
-  <input type="checkbox">
+  <input type="checkbox" onClick="onClick()"</button>>
   
 <article class="answer">
     <p> Sustainability House</p>
@@ -59,17 +59,20 @@
 </div>
 
 
-<checkbox onclick="countclick();"> check me </checkbox>
-<p id="ivy">0</p>
-      <script type="text/javascript">
-          counter=0;
-         countclick = function() {
-             mycount=document.querySelector ('p#ivy');
-             counter= counter+1;
-             mycount.style.color= "red";
-             mycount.innerHTML= counter;
-         }
-      </script>
+<section class = "count">
+<p> How many ? </p>
+<script type="text/javascript">
+    var howmany = 0;
+    function onClick() {
+        howmany = howmany + 1;
+        document.getElementById("howmany").innerHTML = howmany;
+    };
+    </script>
+    //<button type="button" onClick="onClick()">Click me</button>
+    <p>The number of Correct answers: <a id="howmany">0</a></p>  
+   
+</section>
+
 
 
 </body>
