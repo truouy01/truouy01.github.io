@@ -24,7 +24,7 @@
 
 
 <div>
-<input type="checkbox" onClick="updateCounter()">
+<input id="cb1" type="checkbox" onClick="updateCounter(\"cb1\");">
 
 <article class="answer">
      <p>Three: Brandt, Ylvisaker, and Olson</p>
@@ -35,7 +35,7 @@
 </div>
 
   <div>
-  <input type="checkbox" onClick="updateCounter()">
+  <input id="cb2" type="checkbox" onClick="updateCounter(\"cb2"\);">
   
 <article class="answer">
     <p> Miller and Dieseth</p>
@@ -47,7 +47,7 @@
 </div>
 
   <div>
-  <input type="checkbox" onClick="updateCounter()">
+  <input id="cb3" type="checkbox" onClick="updateCounter(\"cb3"\);">
   
 <article class="answer">
     <p> Sustainability House</p>
@@ -62,8 +62,14 @@
 <section>
 <script type="text/javascript">
 counter= 0
-updateCounter= function() {
-    
+updateCounter= function(cbId) {
+            theCheckbox= document.querySelector("#"+cbId);
+            if (theCheckbox.checked) {
+              counter=counter+1;
+            }else {
+              counter=counter-1;
+            }
+            }
             counter = counter+1;
             countSpot= document.querySelector('#myCounter');
             countSpot.innerHTML ="Correct:"+counter;
