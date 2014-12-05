@@ -1,0 +1,24 @@
+<html>
+   <body>
+       <button onclick="savetime()">Time</button>
+       <table id="timetable">
+       </table>
+       <script type="text/javascript">
+           counter=0;       
+          savetime = function() {
+             t = document.querySelector("#timetable")
+             trow = document.createElement("tr")
+             td1 = document.createElement("td1")
+             td2=document.createElement("td2")
+             counter=counter+1;
+             contents1 = document.createTextNode(Date())
+             contents2 = document.createTextNode(counter())
+             td1.appendChild(contents1)
+             td2.appendChild(contents2)
+             trow.appendChild(td1)
+             trow.appendChild(td2)
+             t.appendChild(trow)
+          }
+       </script>
+   </body>
+</html>
