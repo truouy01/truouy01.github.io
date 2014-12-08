@@ -56,7 +56,10 @@
     myUL=document.querySelector('#grocerylist');
     myTextbox=document.querySelector('#item');
     myli=document.queryCreate('li');
-    myGrocery=document.createTextNode('myTextbox.value')
+    myGrocery=document.createTextNode('myTextbox.value');
+    myli.appendChild(myGrocery);
+    myul.appendChild(myli);
+    myTextbox.value="";
     
   }
 </script>
