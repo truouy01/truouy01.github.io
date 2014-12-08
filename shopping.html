@@ -5,11 +5,11 @@
 </head>
 <h1>Shopping list</h1>
 <body>
-  <table width="100%" border="1px" cellspacing="0">
+  <table width="100%" border="1px" cellspacing="0" id="table">
     <tr class="Heading"><th>Category</th><th>Items</th></tr>
     <tr class="colorbody1">
               <td class="Subheading">Meat</td><td><ul class="Bulletpoint1">
-                            <input type="checkbox" 
+                           
                               <li> <input type="checkbox"/>Pork Loin</li>
                               <li>Chicken thigh</li>
                               <li>Sausage</li>
@@ -32,6 +32,16 @@
     </ol></td></tr>
   </ul>
   </table>
+  <script type="text/javascript">
+          savetime = function() {
+             t = document.querySelector("#table")
+             trow = document.createElement("tr")
+             td = document.createElement("td")
+             contents = document.createTextNode("item")
+             ul.appendChild(contents)
+            
+          }
+       </script>
 <lable for="item">Item:</lable>
 <input id="item" type="text"/>
 <lable for="category"> Category:</lable>
