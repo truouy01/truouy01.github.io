@@ -8,11 +8,9 @@
   <table width="100%" border="1px" cellspacing="0" id="table">
     <tr class="Heading"><th>Category</th><th>Items</th></tr>
     <tr class="colorbody1">
-              <td class="Subheading">Meat</td><td><ul class="Bulletpoint1">
+              <td class="Subheading">Meat</td><td><ul id="grocerylist" class="Bulletpoint1">
                            
-                              <li> <input type="checkbox"/>Pork Loin</li>
-                              <li>Chicken thigh</li>
-                              <li>Sausage</li>
+                              
     </ul></td></tr>
     <tr class="colorbody2">
               <td class="Subheading">Vegetables</td><td><ul class="Bulletpoint2">
@@ -53,6 +51,13 @@
   <option>Entertainment</option>
 </select>
 <button>Add</button>
+<script>
+  addItem= function() {
+    myUL=document.querySelector('#grocerylist');
+    myTextbox=document.querySelector('#item');
+    
+  }
+</script>
 </body>
 </html>
 
