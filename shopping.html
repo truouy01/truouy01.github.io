@@ -15,6 +15,9 @@
  #entertainment {
   color: blue;
  }
+ #done {
+  text-decoration: line-through;
+ }
 </style>
 </head>
 <h1>Shopping list</h1>
@@ -63,15 +66,12 @@
     
   }
   checkme=function() {
-   myli.classList.add(mydone.value);
-   mydone=document.createElement("done");
-   mydone="checked";
-   this.parentNode.classList.remove("done");
    
- 
-   
-    if(this.checked) {
-    myli.style.decoration="line-through";
+    if(this.checked) 
+    this.parentNode.classList.add("done");
+    else
+    this.parentNode.classList.remove('done');
+    
    }
   }
 </script>
