@@ -9,6 +9,12 @@
  #vegi {
   color: green;
  }
+ #beauty {
+  color: orange;
+ }
+ #entertaiment {
+  color: blue;
+ }
 </style>
 </head>
 <h1>Shopping list</h1>
@@ -25,8 +31,8 @@
 <select id="category">
   <option id="meat">Meat</option>
   <option id="vegi">Vegetable</option>
-  <option>Beauty</option>
-  <option>Entertainment</option>
+  <option id="beauty">Beauty</option>
+  <option id="entertainment">Entertainment</option>
 </select>
 <button onclick="addItem()">Add</button>
 <script>
@@ -39,7 +45,7 @@
     myCategory=document.querySelector('#category');
     myCheckbox=document.createElement('input');
     myCheckbox.type="checkbox";
-    category=document.createTextNode(myCategory.value);
+    category=document.createTextNode(myCategory.id);
     myItem.style=(category);
     myli.appendChild(myCheckbox);
     myli.appendChild(myItem);
