@@ -36,22 +36,20 @@
 </select>
 <button onclick="addItem()">Add</button>
 <script>
-clickon= function(){
- myCategory=this.classname;
-}
+
   addItem= function() {
     myUL=document.querySelector('#grocerylist');
     myTextbox=document.querySelector('#item');
+    myCategory=document.querySelector('#category');
     myli=document.createElement('li');
     myli.type="none";
-    myli.classList.add(myCategory.value);
+   
   
     
     myItem=document.createTextNode(myTextbox.value);
-   
+    myTextbox.value="";
     
     
-    myCategory=document.querySelector('#category');
     myCheckbox=document.createElement('input');
     myCheckbox.type="checkbox";
     myCheckbox.onclick=checkme;
@@ -60,17 +58,19 @@ clickon= function(){
     myli.appendChild(myCheckbox);
     myli.appendChild(myItem);
     myUL.appendChild(myli);
-    myTextbox.value="";
+    
     
     
   }
-  checkme=function(myCategory) {
+  checkme=function() {
+   myli.classList.add(myCategory.value);
    mydone=document.createElement("done");
    this.parentNode.classList.delete("done");
-   myli.style.type="cross";
    
-   if(myCategory="Meat") {
-    this.parentNode.;
+ 
+   
+    if(this="done") {
+    myli.style.decoration="line-through";
    }
   }
 </script>
