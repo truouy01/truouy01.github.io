@@ -8,7 +8,7 @@
   <table width="100%" border="1px" cellspacing="0" id="table">
     <tr class="Heading"><th>Category</th><th>Items</th></tr>
     <tr class="colorbody1">
-              <td class="Subheading">Meat</td><td><ul id="grocerylist" class="Bulletpoint1">
+              <td class="Subheading">Meat</td><td><ul id="meat" class="Bulletpoint1">
                            
                               
     </ul></td></tr>
@@ -33,7 +33,7 @@
 <lable for="category"> Category:</lable>
 
 <select id="priority">
-  <option>Meat</option>
+  <option id="meat">Meat</option>
   <option>Vegetable</option>
   <option>Beauty</option>
   <option>Entertainment</option>
@@ -41,11 +41,11 @@
 <button onclick="addItem()">Add</button>
 <script>
   addItem= function() {
-    myUL=document.querySelector('#grocerylist');
+    myUL=document.querySelector('#meat');
     myTextbox=document.querySelector('#item');
     myli=document.createElement('li');
     myGrocery=document.createTextNode(myTextbox.value);
-    myli.appendChild(myGrocery);
+    myli.appendChild(meat);
     myUL.appendChild(myli);
     myTextbox.value="";
     
