@@ -5,26 +5,7 @@
 </head>
 <h1>Shopping list</h1>
 <body>
-  <table width="100%" border="1px" cellspacing="0" id="table">
-    <tr class="Heading"><th>Category</th><th>Items</th></tr>
-    <tr class="colorbody1">
-              <td class="Subheading">Meat</td><td><ul id="meat" class="Bulletpoint1">
-                           
-                              
-    </ul></td></tr>
-    <tr class="colorbody2">
-              <td class="Subheading">Vegetables</td><td><ul id="vegi" class="Bulletpoint2">
-                              
-    </ul></td></tr>
-    <tr class="colorbody1">
-              <td class="Subheading">Beauty</td><td><ul class="Bulletpoint1">
-                              
-    </ul></td></tr>
-    <tr class="colorbody2">
-              <td class="Subheading">Entertainment</td><td><ul class="Bulletpoint2">
-                              
-    </ul></td></tr>
-  </table>
+ 
   
             
           
@@ -33,7 +14,7 @@
 <lable for="category"> Category:</lable>
 
 <select id="priority">
-  <option>Meat</option>
+  <option id="meat">Meat</option>
   <option id="vegi">Vegetable</option>
   <option>Beauty</option>
   <option>Entertainment</option>
@@ -45,6 +26,7 @@
     myTextbox=document.querySelector('#item');
     myli=document.createElement('li');
     meat=document.createTextNode(myTextbox.value);
+    myli.appendChild("checkbox")
     myli.appendChild(meat);
     myUL.appendChild(myli);
     myTextbox.value="";
