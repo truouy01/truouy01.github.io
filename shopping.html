@@ -13,16 +13,16 @@
 </head>
 <h1>Shopping list</h1>
 <body>
-<table id="meat"></table>
+<table id="grocerylist"></table>
  
   
             
           
 <lable for="item">Item:</lable>
 <input id="item" type="text"/>
-<lable for="category"> Category:</lable>
+<lable> Category:</lable>
 
-<select id="priority">
+<select id="category">
   <option id="meat">Meat</option>
   <option id="vegi">Vegetable</option>
   <option>Beauty</option>
@@ -31,11 +31,11 @@
 <button onclick="addItem()">Add</button>
 <script>
   addItem= function() {
-    myUL=document.querySelector('#meat');
+    myUL=document.querySelector('#grocerylist');
     myTextbox=document.querySelector('#item');
     myli=document.createElement('li');
     meat=document.createTextNode(myTextbox.value);
-    myCategory=document.querySelector('#priority');
+    myCategory=document.querySelector('#category');
     category=document.createTextNode(myCategory.value);
     meat.style=(category);
     myli.appendChild(meat);
