@@ -46,34 +46,27 @@
     myCategory=document.querySelector('#category');
     myli=document.createElement('li');
     myli.type="none";
-   
-  
     
     myItem=document.createTextNode(myTextbox.value);
     myTextbox.value="";
-    
     
     myCheckbox=document.createElement('input');
     myCheckbox.type="checkbox";
     myCheckbox.onclick=checkme;
     
-   
     myli.appendChild(myCheckbox);
     myli.appendChild(myItem);
     myUL.appendChild(myli);
-    
-    
-    
   }
   checkme=function() {
    
     if(this.checked) 
     this.parentNode.classList.add("done");
     else
-    this.parentNode.classList.remove('done');
+    this.parentNode.classList.remove("done");
     
    }
-  }
+  
 </script>
 </body>
 </html>
