@@ -27,7 +27,9 @@
     myTextbox=document.querySelector('#item');
     myli=document.createElement('li');
     meat=document.createTextNode(myTextbox.value);
-    
+    myCategory=document.querySelector('#priority');
+    category=document.createTextBode(myCategory.value);
+    myli.appendChild(category)
     myli.appendChild(meat);
     myUL.appendChild(myli);
     myTextbox.value="";
