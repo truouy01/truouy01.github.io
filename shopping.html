@@ -63,13 +63,14 @@
     
   }
   checkme=function() {
-   myli.classList.add(myCategory.value);
-   mydone=document.createElement("done");
-   this.parentNode.classList.delete("done");
+   myli.classList.add(mydone.value);
+   mydone=document.createElement(done);
+   mydone="checked";
+   this.parentNode.classList.remove("done");
    
  
    
-    if(this="done") {
+    if(this.checked) {
     myli.style.decoration="line-through";
    }
   }
