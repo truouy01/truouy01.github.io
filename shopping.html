@@ -34,11 +34,11 @@
     myUL=document.querySelector('#grocerylist');
     myTextbox=document.querySelector('#item');
     myli=document.createElement('li');
-    meat=document.createTextNode(myTextbox.value);
+    myItem=document.createTextNode(myTextbox.value);
     myCategory=document.querySelector('#category');
     category=document.createTextNode(myCategory.value);
-    meat.style=(category);
-    myli.appendChild(meat);
+    myItem.style=(category);
+    myli.appendChild(myItem);
     myUL.appendChild(myli);
     myTextbox.value="";
     
