@@ -44,22 +44,33 @@ clickon= function(){
     myTextbox=document.querySelector('#item');
     myli=document.createElement('li');
     myli.type="none";
+    myli.classList.add(myCategory.value);
+  
+    
     myItem=document.createTextNode(myTextbox.value);
+   
+    
+    
     myCategory=document.querySelector('#category');
     myCheckbox=document.createElement('input');
     myCheckbox.type="checkbox";
+    myCheckbox.onclick=checkme;
     
-    myItem.style=('#category');
+   
     myli.appendChild(myCheckbox);
     myli.appendChild(myItem);
-    myli.onclick=clickon;
     myUL.appendChild(myli);
     myTextbox.value="";
     
+    
   }
   checkme=function(myCategory) {
+   mydone=document.createElement("done");
+   this.parentNode.classList.delete("done");
+   myli.style.type="cross";
+   
    if(myCategory="Meat") {
-    myTextbox.style.type="#meat";
+    this.parentNode.;
    }
   }
 </script>
