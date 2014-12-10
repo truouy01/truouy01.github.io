@@ -36,8 +36,10 @@
     myli=document.createElement('li');
     myItem=document.createTextNode(myTextbox.value);
     myCategory=document.querySelector('#category');
+    myCheckbox=document.createElement('checkbox');
     category=document.createTextNode(myCategory.value);
     myItem.style=(category);
+    myli.appendChild(myCheckbox);
     myli.appendChild(myItem);
     myUL.appendChild(myli);
     myTextbox.value="";
