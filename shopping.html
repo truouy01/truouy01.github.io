@@ -36,6 +36,9 @@
 </select>
 <button onclick="addItem()">Add</button>
 <script>
+clickon= function(){
+ myCategory=this.classname;
+}
   addItem= function() {
     myUL=document.querySelector('#grocerylist');
     myTextbox=document.querySelector('#item');
@@ -49,6 +52,7 @@
     myItem.style=('#category');
     myli.appendChild(myCheckbox);
     myli.appendChild(myItem);
+    myli.onclick=clickon;
     myUL.appendChild(myli);
     myTextbox.value="";
     
