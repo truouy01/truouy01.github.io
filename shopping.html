@@ -2,6 +2,14 @@
 <head>
 <link rel="stylesheet" href="shop.css" type="text/css">
 <title>Shopping List</title>
+<style>
+ #meat {
+  color: red;
+ }
+ #vegi {
+  color: green;
+ }
+</style>
 </head>
 <h1>Shopping list</h1>
 <body>
@@ -28,8 +36,8 @@
     myli=document.createElement('li');
     meat=document.createTextNode(myTextbox.value);
     myCategory=document.querySelector('#priority');
-    category=document.createTextBode(myCategory.value);
-    myli.appendChild(category)
+    category=document.createTextNode(myCategory.value);
+    meat.style=(category);
     myli.appendChild(meat);
     myUL.appendChild(myli);
     myTextbox.value="";
