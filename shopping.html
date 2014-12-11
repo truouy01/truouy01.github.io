@@ -53,7 +53,7 @@
     
     myCheckbox=document.createElement('input');
     myCheckbox.type="checkbox";
-    myCheckbox.onclick=checkme;
+    myCheckbox.onclick="checkme()";
     
     myli.appendChild(myCheckbox);
     myli.appendChild(myItem);
@@ -62,9 +62,11 @@
   checkme=function() {
    
     if(this.checked) 
-    {this.parentNode.classList.add('done');}
+    {this.parentNode.classList.add('done');
+     }
     else
-    {this.parentNode.classList.remove('done');}
+    {this.parentNode.classList.remove('done');
+     }
     
    }
   
