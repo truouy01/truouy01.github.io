@@ -4,16 +4,16 @@
 <link rel="stylesheet" href="shop.css" type="text/css">
 <title>Shopping List</title>
 <style>
- .meat {
+ .Meat {
   color: red;
  }
- .vegi {
+ .Vegetable {
   color: green;
  }
- .beauty {
+ .Beauty {
   color: orange;
  }
- .entertainment {
+ .Entertainment {
   color: blue;
  }
  .done {
@@ -45,7 +45,8 @@
   addItem= function() {
     myUL=document.querySelector('#grocerylist');
     myTextbox=document.querySelector('#item');
-    myCategory=document.querySelector('#category');
+    myCategory=document.querySelector('#category'.value);
+    myli.className=myCategory;
     
     myli=document.createElement('li');
     myli.type="none";
