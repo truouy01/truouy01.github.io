@@ -3,20 +3,21 @@
 <link rel="stylesheet" href="shop.css" type="text/css">
 <title>Shopping List</title>
 <style>
- #meat {
+ .meat {
   color: red;
  }
- #vegi {
+ .vegi {
   color: green;
  }
- #beauty {
+ .beauty {
   color: orange;
  }
- #entertainment {
+ .entertainment {
   color: blue;
  }
  .done {
   color: red;
+  text-decoration=line-through;
  }
 </style>
 </head>
@@ -32,10 +33,10 @@
 <lable> Category:</lable>
 
 <select id="category">
-  <option id="meat">Meat</option>
-  <option id="vegi">Vegetable</option>
-  <option id="beauty">Beauty</option>
-  <option id="entertainment">Entertainment</option>
+  <option class="meat">Meat</option>
+  <option class="vegi">Vegetable</option>
+  <option class="beauty">Beauty</option>
+  <option class="entertainment">Entertainment</option>
 </select>
 <button onclick="addItem()">Add</button>
 <script>
@@ -46,6 +47,7 @@
     myCategory=document.querySelector('#category');
     myli=document.createElement('li');
     myli.type="none";
+    myli.classlist.add("myCategory")
     
     myItem=document.createTextNode(myTextbox.value);
     myTextbox.value="";
