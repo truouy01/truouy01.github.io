@@ -46,11 +46,12 @@
     myUL=document.querySelector('#grocerylist');
     myTextbox=document.querySelector('#item');
     myCategory=document.querySelector('#category').value;
-    myli.className=myCategory;
+    
     
     myli=document.createElement('li');
     myli.type="none";
     myli.classList.add("myCategory");
+    myli.className=myCategory;
     
     
     myItem=document.createTextNode(myTextbox.value);
