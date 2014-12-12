@@ -42,7 +42,7 @@
 <button onclick="addItem()">Add</button>
 <script type="text/javascript">
     window.onload=function() {
-        restoreList('grocerylist',doneTask);
+        restoreList('grocerylist',donefunc);
     }
         
     </script>
@@ -73,6 +73,8 @@
     myli.appendChild(myCheckbox);
     myli.appendChild(myItem);
     myUL.appendChild(myli);
+    
+    localSave("grocerylist")
   }
   checkme=function() {
    
@@ -84,7 +86,7 @@
      }
     
    }
-  localSave("grocerylist")
+  
 </script>
 </body>
 </html>
