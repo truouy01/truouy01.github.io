@@ -1,4 +1,5 @@
-<html>
+
+    <html>
 <head>
 <link rel="stylesheet" href="shop.css" type="text/css">
 <title>Shopping List</title>
@@ -16,7 +17,8 @@
   color: blue;
  }
  .done {
-  text-decoration=line-through;
+  color: red;
+  text-decoration:line-through;
  }
 </style>
 </head>
@@ -44,9 +46,11 @@
     myUL=document.querySelector('#grocerylist');
     myTextbox=document.querySelector('#item');
     myCategory=document.querySelector('#category');
+    
     myli=document.createElement('li');
     myli.type="none";
-    myli.classlist.add("myCategory")
+    myli.classList.add("myCategory");
+    
     
     myItem=document.createTextNode(myTextbox.value);
     myTextbox.value="";
@@ -74,3 +78,8 @@
 </body>
 </html>
 
+
+
+
+
+</html>
